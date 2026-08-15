@@ -16,6 +16,10 @@ const extensionConfig = {
   },
   externals: {
     vscode: "commonjs vscode",
+    // ws's optional native accelerators -- not installed, and not needed
+    // for a plain loopback WebSocket server.
+    bufferutil: "commonjs bufferutil",
+    "utf-8-validate": "commonjs utf-8-validate",
   },
   resolve: {
     extensions: [".ts", ".js"],

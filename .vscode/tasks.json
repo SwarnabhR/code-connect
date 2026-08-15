@@ -4,6 +4,7 @@
     {
       "type": "npm",
       "script": "watch",
+      "path": "packages/vscode-extension",
       "problemMatcher": "$ts-webpack-watch",
       "isBackground": true,
       "presentation": {

@@ -1,0 +1,24 @@
+{
+  "name": "@code-connect/browser-extension",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@code-connect/shared": "*"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.269",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "eslint": "^8.57.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
